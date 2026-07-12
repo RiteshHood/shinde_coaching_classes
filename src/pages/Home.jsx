@@ -2,6 +2,8 @@ import Navbar from "../components/Navbar/Navbar.jsx";
 import Hero from "../components/Hero/Hero.jsx";
 import Features from "../components/Features/Features.jsx";
 import Footer from "../components/Footer/Footer.jsx";
+import About from "../components/About/About.jsx";
+import Statistics from "../components/Statistics/Statistics.jsx";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Features />
+      <About/>
+      <Statistics/>
       <Footer />
     </>
   );
