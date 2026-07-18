@@ -18,7 +18,7 @@ export default function AboutSection() {
       <div className="about-content">
 
         <span className="section-tag">
-          WHO WE ARE
+           WE ARE
         </span>
 
         <h2>

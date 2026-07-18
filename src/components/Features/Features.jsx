@@ -59,7 +59,7 @@ export default function Features() {
       <div className="container">
 
         <div className="section-title">
-          <span>WHY CHOOSE US</span>
+          
           <h2>Why Choose Shinde Coaching Classes?</h2>
 
           <p>

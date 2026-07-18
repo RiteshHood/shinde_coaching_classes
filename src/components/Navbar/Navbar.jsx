@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
+import logo from "../../assets/logo/Logo.png";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -14,10 +15,11 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link to="/" className="logo">
-          <span>📚</span>
+          
+          <img src={logo} alt="Students" />
+
           <div>
             <h2>Shinde Coaching</h2>
-            <small>5th - 10th Standard</small>
           </div>
         </Link>
 

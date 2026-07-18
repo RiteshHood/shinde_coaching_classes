@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="hero-content">
 
           <span className="hero-badge">
-            📚 Trusted Coaching for 5th–10th Standard Students
+            Trusted Coaching for 5th–10th Standard Students
           </span>
 
           <h1>
