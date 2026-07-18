@@ -14,9 +14,8 @@ export default function Navbar() {
       <div className="container navbar-container">
 
         {/* Logo */}
-        <Link to="/" className="logo">
-          
-          <img src={logo} alt="Students" />
+        <Link to="/" className="logo" onClick={closeMenu}>
+          <img src={logo} alt="Shinde Coaching Classes Logo" />
 
           <div>
             <h2>Shinde Coaching</h2>
@@ -29,9 +28,13 @@ export default function Navbar() {
           <NavLink to="/about" onClick={closeMenu}>About</NavLink>
           <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
           <NavLink to="/register" onClick={closeMenu}>Register</NavLink>
-          <NavLink to="/courses">Courses</NavLink>
+          <NavLink to="/courses" onClick={closeMenu}>Courses</NavLink>
 
-          <Link to="/register" className="register-btn" onClick={closeMenu}>
+          <Link
+            to="/register"
+            className="register-btn"
+            onClick={closeMenu}
+          >
             Enroll Now
           </Link>
         </nav>
